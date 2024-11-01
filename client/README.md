@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# Repostory 프로젝트 - 프론트엔드
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 메인 기술 스택
 
-Currently, two official plugins are available:
+| 분류    | 이름                                           | 버전      |
+|-------|----------------------------------------------|---------|
+| 런타임   | [Node.js](https://nodejs.org)                | 22.11.0 |
+| 프레임워크 | [React](https://react.dev)                   | 18.3.1  |
+| 언어    | [TypeScript](https://www.typescriptlang.org) | 5.6.2   |
+| 빌드 도구 | [Vite](https://vite.dev)                     | 5.4.10  |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 추가 라이브러리
 
-## Expanding the ESLint configuration
+| 이름                                                          | 버전     | 설명                                            |
+|-------------------------------------------------------------|--------|-----------------------------------------------|
+| [Prettier](https://prettier.io)                             | 3.3.3  | 코드 포매팅 도구로, 일관적인 코드 스타일을 유지해줍니다               |
+| [ESLint](https://eslint.org)                                | 9.13.0 | 자바스크립트 및 JSX 코드의 품질과 일관성을 검사하는 정적 코드 분석 도구입니다 |
+| [AXIOS](https://axios-http.com)                             | 3.4.14 | 프로미스 기반의 HTTP 클라이언트로, AJAX 요청을 간편하게 처리합니다     |
+| [Zustand](https://github.com/pmndrs/zustand)                | 5.0.1  | 간단하고 직관적인 상태 관리를 위한 라이브러리입니다                  |
+| [react-toastify](https://fkhadra.github.io/react-toastify)  | 10.0.6 | `alert`을 대체하는 토스트 알림 라이브러리입니다                 |
+| [TailwindCSS](https://tailwindcss.com)                      | 3.4.14 | 유틸리티 우선 CSS 프레임워크로, 빠르고 직관적인 스타일링을 지원합니다      |
+| [shadcn](https://ui.shadcn.com)                             | 2.1.3  | TailwindCSS를 기반으로 한 리액트 컴포넌트 라이브러리입니다         |
+| [clsx](https://github.com/lukeed/clsx)                      | 2.1.1  | CSS 클래스 이름을 간편하게 병합하는 라이브러리입니다                |
+| [tailwind-merge](https://github.com/dcastil/tailwind-merge) | 2.5.4  | TailwindCSS 클래스 이름을 병합할 수 있도록 돕는 라이브러리입니다     |
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 프로젝트 실행 방법
 
-- Configure the top-level `parserOptions` property like this:
+1. 프로젝트 클론
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+   git clone https://github.com/repo-story/repostory.dev
+   cd repostory.dev/client
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. 종속성 설치
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```bash
+npm install
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+3. 개발 서버 실행
+
+```bash
+npm run dev
 ```
