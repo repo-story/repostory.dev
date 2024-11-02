@@ -94,5 +94,9 @@
 <path d="M182.48,192.15 C182.48,192.15 171.21,200.41 171.21,200.41 C171.21,200.41 164.82,202.67 164.82,202.67 C164.82,202.67 158.25,204.92 158.25,204.92 C158.25,204.92 157.12,205.11 157.12,205.11 C157.12,205.11 151.86,206.99 151.86,206.99 C151.86,206.99 147.92,208.68 147.92,208.68 C147.83,208.75 138.99,210.47 138.71,210.56 C138.00,210.76 130.31,211.86 129.70,212.06 C129.04,212.25 116.30,212.25 115.80,212.06" fill="none" stroke="rgb(0, 0, 0)" stroke-width="25.00" stroke-opacity="1.00" stroke-linejoin="round"/>
 <path d="M102.93,167.03 C102.93,167.00 100.96,164.49 100.37,163.72 C99.95,163.05 100.01,160.88 100.02,160.80 C100.02,160.80 100.02,160.88 100.02,160.88" fill="none" stroke="rgb(0, 0, 0)" stroke-width="3.00" stroke-opacity="1.00" stroke-linejoin="round"/>
 <path d="M147.07,167.03 C147.07,167.00 149.04,164.49 149.63,163.72 C150.05,163.05 149.99,160.88 149.98,160.80 C149.98,160.80 149.98,160.88 149.98,160.88" fill="none" stroke="rgb(0, 0, 0)" stroke-width="3.00" stroke-opacity="1.00" stroke-linejoin="round"/>
+<path d="M141.92,46.34 C141.92,46.34 151.07,48.23 151.07,48.23 C151.07,48.23 146.97,48.23 146.97,48.23" fill="none" stroke="rgb(0, 0, 0)" stroke-width="40.00" stroke-opacity="1.00" stroke-linejoin="round"/>
+<path d="M108.08,46.34 C108.08,46.34 98.93,48.23 98.93,48.23 C98.93,48.23 103.03,48.23 103.03,48.23" fill="none" stroke="rgb(0, 0, 0)" stroke-width="40.00" stroke-opacity="1.00" stroke-linejoin="round"/>
+<path d="M139.77,46.59" fill="none" stroke="rgb(0, 0, 0)" stroke-width="40.00" stroke-opacity="1.00" stroke-linejoin="round"/>
+<path d="M110.23,46.59" fill="none" stroke="rgb(0, 0, 0)" stroke-width="40.00" stroke-opacity="1.00" stroke-linejoin="round"/>
 </g>
 </svg>
