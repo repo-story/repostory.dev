@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <style>
+        #logo { fill:black; stroke-color: black; }
+        @media (prefers-color-scheme: dark) { #logo { fill:white; stroke-color: white; } }
+    </style>
+    <defs>
+        <mask id="inner-mask" fill="black">
+            <rect id="base" fill="white" x="0" y="0" width="256" height="256"/>
+            <g id="ear">
+                <circle r="8" cx="76" cy="72"/>
+                <circle r="8" cx="180" cy="72"/>
+                <path d="M76 68L68 128L108 108z"/>
+                <path d="M180 68L188 128L148 108z"/>
+            </g>
+            <g id="head">
+                <ellipse id="head-base" rx="74" ry="58" cx="128" cy="152"/>
+                <path id="mouse" fill="white" d="M98 166 Q82 176 108 188 C124 194 132 192 142 190 Q176 176 158 166"/>
+                <g id="mouse-tooth" stroke-width="1" stroke-linejoin="round" stroke="black">
+                    <polygon points="100,172 106,172 103,177"/>
+                    <polygon points="150,172 156,172 153,177"/>
+                </g>
+            </g>
+        </mask>
+    </defs>
+    <circle id="logo" mask="url(#inner-mask)" r="128" cx="128" cy="128"/>
+</svg>
