@@ -12,3 +12,7 @@ spring:
           auth: true
           starttls:
             enable: true
+front:
+  domain: localhost:3000
+  protocol: http
+  url: "${front.protocol}://${front.domain}"
